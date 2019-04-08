@@ -47,7 +47,7 @@ else {
 
 //Task 5
 
-var month = 10;
+var month = 12;
 
 if ((month >= 1 && month <= 2) || month == 12) {
     console.log("Зима")
@@ -58,7 +58,7 @@ else if (month >= 3 && month <=5) {
 else if (month >= 6 && month <=8) {
     console.log("Лето")
 }
-else (month >= 9 && month <=11) {
+else if (month >= 9 && month <=11) {
     console.log("Осень")
 }
 
